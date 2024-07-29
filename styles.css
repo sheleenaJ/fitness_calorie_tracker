@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f7;
+}
+
+.login-container, .register-container {
+    display: flex;
+    height: 100vh;
+}
+
+.form-section, .info-section {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.form-section {
+    background-color: #f9fff0;
+}
+
+.info-section {
+    background-color: #b7fcb0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #8bed81;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #76d76f;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gender-options label {
+    font-size: 16px;
+}
+
+p a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
